@@ -31,4 +31,4 @@
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/JimRnst})
+- GitHub [JimRnst](https://{github.com/JimRnst})
