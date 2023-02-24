@@ -1,0 +1,236 @@
+:root{
+    --background-body: rgb(240, 240, 240);
+    --background-cards: white;
+    --btn: rgb(49, 49, 199);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background: var(--background-body);
+}
+
+.main-menu {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    padding: 50px;
+}
+  
+.menu1{
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    width: 350px;
+    min-width: 250px;
+    height: auto;
+    background: var(--background-cards);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+img.perfil-photo{
+    border-radius: 10px;
+    width: 100%;
+    min-width: 150px;
+}
+
+.name{
+    line-height: 30px;
+}
+
+.personal-dates{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.title{
+    font-size: 17px;
+}
+
+.sub-title{
+    font-size: 13px;
+}
+
+.pesonal-contact{
+    line-height: 30px;
+}
+
+
+.personal-email,
+.personal-number-phone{
+    display: flex;
+    gap: 10px;
+}
+
+.sgv-icon{
+    width: 20px;
+}
+
+.box-experiences{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.img-exp{
+    width: 50px;
+}
+
+.experiences-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-experiencies{
+    margin-bottom: 20px;
+}
+
+#title-hobbies{
+    margin-bottom: 20px;
+}
+
+.hobbie-img-container{
+    overflow: hidden;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.hobbie-img{
+    width: 100%;
+    min-width: 150px;
+}
+
+.hobbie-description{
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.menu2{
+    grid-area: 1 / 2 / 2 / 3;
+    width: 70vw;
+    height: auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 30px;
+}
+
+.box.boxSkills{
+    width: 100%;
+    height: 100%;
+}
+
+
+.skills-content{
+    display: flex;
+    gap: 30px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.text.skillsText{
+    width: 150px;
+}
+
+progress{
+    width: 100%;
+    height: 25px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.project-img{
+    width: 300px;
+    min-width: 300px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.project-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hashtags-container{
+    font-size: 13px;
+}
+
+.project-description{
+    height: 80px;
+}
+
+.buttons-buttom-projects{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn.demo{
+    color: var(--background-cards);
+    background: var(--btn);
+}
+
+.btn.code{
+    color: var(--btn);
+    border: 1px solid var(--btn);
+}
+
+.btn-blank{
+    color: var(--background-cards);
+    text-decoration: none;
+}
+
+.btn-blank.color-code{
+    color: var(--btn);
+}
